@@ -1,0 +1,37 @@
+[
+    {
+        "path": "/posts",
+        "methods": ["GET"],
+        "controller": "PostsController"
+    },
+    {
+        "path": "/logout",
+        "methods": ["POST"],
+        "controller": "LogoutController"
+    },
+    {
+        "path": "/register",
+        "methods": ["GET", "POST"],
+        "controller": "RegisterController"
+    },
+    {
+        "path": "/login",
+        "methods": ["GET", "POST"],
+        "controller": "LoginController"
+    },
+    {
+        "path": "/update-profile",
+        "methods": ["PATCH"],
+        "controller": "UpdateProfileController"
+    },
+    {
+        "path": "/admin/get-users",
+        "methods": ["GET"],
+        "controller": "AdminGetUsersController"
+    },
+    {
+        "path": "/admin/delete-user",
+        "methods": ["DELETE"],
+        "controller": "AdminDeleteUserController"
+    }
+]
