@@ -23,5 +23,15 @@
     "path": "/profile",
     "methods": ["PATCH"],
     "controller": "PatchProfileController"
+  },
+  {
+    "path": "/admin/get-users",
+    "methods": ["GET"],
+    "controller": "AdminGetController"
+  },
+  {
+    "path": "/admin/delete-user",
+    "methods": ["DELETE"],
+    "controller": "AdminDeleteController"
   }
 ]
