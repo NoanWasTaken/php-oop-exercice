@@ -18,5 +18,10 @@
     "path": "/blog",
     "methods": ["GET"],
     "controller": "BlogsController"
+  },
+  {
+    "path": "/profile",
+    "methods": ["PATCH"],
+    "controller": "PatchProfileController"
   }
 ]
