@@ -5,18 +5,18 @@
             <div
                 class="flex flex-col w-full items-center justify-start space-y-4"
             >
-                <?php foreach($getPosts as $post): ?>
+                <?php foreach($getBlogs as $blog): ?>
                 <div
                     class="flex flex-col w-full items-center justify-start border border-gray-300 p-4"
                 >
                     <a
-                        href="/blogs/index.php?id=<?= $post['id'] ?>"
+                        href="/blogs/index.php?id=<?= $blog['id'] ?>"
                         class="text-2xl"
-                        ><?= $post['title'] ?></a
+                        ><?= $blog['title'] ?></a
                     >
-                    <a href="/users.php?id=<?= $post['user_id'] ?>" class="p"
+                    <a href="/users.php?id=<?= $blog['user_id'] ?>" class="p"
                         >By
-                        <?= $post['name'] ?></a
+                        <?= $blog['name'] ?></a
                     >
                 </div>
                 <?php endforeach; ?>

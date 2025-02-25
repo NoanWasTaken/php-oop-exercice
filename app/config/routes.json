@@ -13,5 +13,10 @@
     "path": "/logout",
     "methods": ["POST"],
     "controller": "LogoutController"
+  },
+  {
+    "path": "/blog",
+    "methods": ["GET"],
+    "controller": "BlogsController"
   }
 ]
