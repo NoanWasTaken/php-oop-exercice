@@ -4,7 +4,9 @@ namespace App\Controllers;
 
 use App\Http\Request;
 use App\Http\Response;
-require_once __DIR__ . "/../views/$view.html";
+require_once __DIR__ . "/../views/html/start.php";
+require_once __DIR__ . "/../views/$view.php";
+require_once __DIR__ . "/../views/html/end.php";
 
 abstract class AbstractController{
     abstract public function process(Request $request): Response;
